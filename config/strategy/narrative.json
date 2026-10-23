@@ -1,0 +1,34 @@
+{
+  "riskPerTrade": 0.01,
+  "rrMin": 1.2,
+
+  "volumeConfirmation": {
+    "mode": "relaxed",
+    "absLookback": 20,
+    "absMinAtr": 0.08,
+    "absRequireCloseBack": false
+  },
+
+  "entryTriggers": {
+    "pivotWindow15m": 3,
+    "pivotWindow5m": 4,
+    "momentumBodyK15m": 0.2,
+    "momentumBodyK5m": 0.2,
+    "minWick15m": 0.05,
+    "minWick5m": 0.05,
+    "allow15mEntryFallback": true,
+    "nearPivotEnabled": true,
+    "nearPivotAtrMult": 0.5
+  },
+
+  "stopLoss": {
+    "mode": "williams_second",
+    "atrStopMult": 1.8,
+    "minStopPct": 0.008
+  },
+
+  "takeProfit": {
+    "williamsTpMax": 4,
+    "minTpGapAtr": 0.15
+  }
+}

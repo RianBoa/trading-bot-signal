@@ -1,0 +1,8 @@
+python-binance
+# 20.x ломается на Python 3.13 (Updater/__slots__). Нужна >=21 с фиксом #4127.
+python-telegram-bot[job-queue]>=21.10,<24
+pandas
+numpy
+python-dotenv
+ccxt
+pyarrow

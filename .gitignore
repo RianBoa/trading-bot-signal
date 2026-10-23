@@ -1,0 +1,26 @@
+.venv/
+.venv313/
+.venv_win/
+__pycache__/
+*.pyc
+.env
+ai_data/
+cache/
+.vs/
+
+# Local runtime output and backups
+logs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+*.bak
+*.bak.*
+*.save
+portfolio_*
+per_symbol_stats.csv
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
